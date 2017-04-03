@@ -11,6 +11,8 @@ permalink: index.html
 
 At FuseBits we make really cool electronics and help other people make their products and projects. If you have a board to be assembled, firmware to be written, or enclosure designed, we can help. 
 
+
+
 ### 1. Build the Theme (*with* the github-pages gem) {#option2}
 
 If you *are* in fact publishing on Github Pages, leave the Gemfile and Gemfile.lock files in the theme.The Gemfile tells Jekyll to use the github-pages gem. **However, note that you cannot use the normal `jekyll serve` command with this gem due to dependency conflicts between the latest version of Jekyll and Github Pages** (which are noted [briefly here](https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/)).
@@ -28,14 +30,4 @@ bundle exec jekyll serve
 ```
 
 If you want to shorten this long command, you can put this code in a file such as jekyll.sh (on a Mac) and then simply type `. jekyll.sh` to build Jekyll.
-
-
-
-## Blogs / News
-
-For blog posts, create your markdown files in the \_posts folder following the sample formats. Post file names always begin with the date (YYYY-MM-DD-title).
-
-The news/news.html file displays the posts, and the news_archive.html file shows a yearly history of posts. In documentation, you might use the news to highlight product features outside of your documentation, or to provide release notes and other updates.
-
-See [Posts][mydoc_posts] for more information.
 

@@ -6,7 +6,7 @@ topnav:
     - title: News
       url: /news
     - title: Services
-      url: /services.html
+      url: /p1_landing_page.html
 
 #Topnav dropdowns
 topnav_dropdowns:
@@ -28,7 +28,5 @@ topnav_dropdowns:
       folderitems:
         - title: Honeycomb
           url: /mydoc_introduction.html
-        - title: Product 1
-          url: /p1_landing_page.html
         - title: Product 2
           url: /p2_landing_page.html

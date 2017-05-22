@@ -24,16 +24,16 @@ entries:
     folderitems:
 
     - title: About the Company
-      url: /index.html
+      url: /ov_company.html
       output: web, pdf
       type: homepage
 
     - title: People
-      url: /mydoc_introduction.html
+      url: /ov_people.html
       output: web, pdf
 
-    - title: Areas of Interest
-      url: /mydoc_supported_features.html
+    - title: R&D Projects
+      url: /ov_rd.html
       output: web, pdf
 
 
@@ -42,40 +42,30 @@ entries:
     folderitems:
 
     - title: Honeycomb
-      url: /mydoc_release_notes_60.html
+      url: /hc_main.html
       output: web, pdf
 
     - title: Honeycomb Frame
-      url: /mydoc_release_notes_50.html
+      url: /hc_frame.html
       output: web, pdf
 
-    - title: easyUSB
-      url: /mydoc_release_notes_50.html
-      output: web, pdf
 
-  - title: Software
+  - title: Tutorials
     output: web, pdf
     folderitems:
 
     - title: Simplicity Studio
-      url: /mydoc_about_ruby_gems_etc.html
+      url: /ss_tutorial_top.html
       output: web, pdf
-
-    - title: Arduino
-      url: /mydoc_install_jekyll_on_mac.html
-      output: web, pdf
-
 
   - title: Engineering Services
     output: web, pdf
     folderitems:
 
     - title: About
-      url: /mydoc_install_jekyll_on_windows.html
+      url: /services_main.html
       output: web, pdf
-    - title: Capabilities
-      url: /mydoc_install_jekyll_on_windows.html
-      output: web, pdf
+
     - title: Contact us
       url: /mydoc_install_jekyll_on_windows.html
       output: web, pdf
